@@ -1,21 +1,15 @@
 {
-  "name": "count-down-clock",
+  "name": "webserver",
   "version": "1.0.0",
-  "description": "A clock that count down in a terminal",
-  "main": "countdown.js",
+  "description": "just a web server",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [
-    "clock",
-    "countdown",
-    "timer"
+    "webserver"
   ],
   "author": "moataz",
-  "license": "ISC",
-  "dependencies": {
-    "minimist": "^1.2.5",
-    "single-line-log": "^1.1.2",
-    "tiny-timer": "^1.5.1"
-  }
+  "license": "ISC"
 }
