@@ -1,0 +1,21 @@
+{
+  "name": "count-down-clock",
+  "version": "1.0.0",
+  "description": "A clock that count down in a terminal",
+  "main": "countdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "clock",
+    "countdown",
+    "timer"
+  ],
+  "author": "moataz",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "single-line-log": "^1.1.2",
+    "tiny-timer": "^1.5.1"
+  }
+}
