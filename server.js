@@ -41,7 +41,7 @@ http.createServer((req,res)=>{
 
     console.log("hi",req.url);
     switch (req.url){
-        case "https://ancient-headland-26475.herokuapp.com":
+        case "https://obscure-refuge-17971.herokuapp.com":
             return sendFile(res,200,"text/html","./index.html");
         case "/":
             return sendFile(res,200,"text/html","./index.html");
@@ -62,6 +62,6 @@ http.createServer((req,res)=>{
 
 
 
-}).listen(3000);
+}).listen(process.env.PORT || 5000);
 
 console.log("Server is listening Duh");
