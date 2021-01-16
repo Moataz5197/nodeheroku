@@ -39,7 +39,7 @@ http.createServer((req,res)=>{
         });
     }
 
-
+    console.log("hi",req.url);
     switch (req.url){
         case "/":
             return sendFile(res,200,"text/html","./index.html");
